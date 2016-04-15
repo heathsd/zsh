@@ -10,7 +10,7 @@ ZSH_THEME="candy"
 plugins=(git)
 
 # User configuration
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
 
 source $ZSH/oh-my-zsh.sh
 
