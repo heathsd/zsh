@@ -14,12 +14,6 @@ export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/u
 
 source $ZSH/oh-my-zsh.sh
 
-# todo setup
-export TODO_TXT_DEFAULT_ACTION=LS
-PATH=$PATH:"/home/heath/.todo/"
-alias t="todo.sh -d /home/heath/.todo/todo.cfg"
-source /home/heath/.todo/todo_completion
-
 # Various aliases
 alias less='less -r' # raw control characters
 alias whence='type -a' # where kinda
