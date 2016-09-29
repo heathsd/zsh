@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/heath/.oh-my-zsh
+export ZSH=/home/sheath/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -7,7 +7,7 @@ export ZSH=/home/heath/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="candy"
 
-plugins=(git)
+plugins=(git zsh-autosuggestions) 
 
 # User configuration
 export PATH="$PATH:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
@@ -24,3 +24,4 @@ alias ls='ls -hF --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -al --color=auto'
 alias l='ls -CF --color=auto'
+alias upssh='cp -R /mnt/c/Users/sheath/ownCloud/Tools/ssh ~/.ssh;sudo chown -R $USER:$USER ~/.ssh;sudo chmod -R 600 ~/.ssh;sudo chmod 700 ~/.ssh' 
